@@ -1,0 +1,26 @@
+<center><h1>Confirm Order</h1></center>
+<div id="productInfoDiv">
+<center><h2>Product Description</h2>
+<h4>{{info}}</h4>
+<h2>Shipping Details</h2>
+<h4>{{shippingDetail}}</h4></center>
+</div>
+<center><div>
+	<h2>Credit Card Information</h2>
+	<form name="reviewform">
+		<label>Cardholders Name</label><br>
+		<input type="text" id="cardName" required><br>
+		<label>Card Number</label><br>
+		<input type="text" id="cardNumber" required><br>
+		<label>CVV</label><br>
+		<input type="text" id="cardCvv" required><br>
+		<label>Exp. Date</label><br>
+		<input type="date" required><br>
+		<label>Address</label><br>
+		<input type="text" required><br>
+		<label>ZipCode</label><br>
+		<input type="text" id="zipCode" required><br>
+
+	</form>
+	<button class="btn btn-success" ng-click="reviewform.$valid&&orderPay(x.productDiscription,x.price)">Pay</button>
+</div></center>

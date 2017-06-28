@@ -1,0 +1,27 @@
+<center><button class="btn btn-warning btn-lg" data-toggle="collapse" data-target="#reviews">See Reviews</button></center>
+
+<div id="reviews" class="collapse">
+<ul>
+	<li ng-repeat="split in splitreview">
+	{{splitreview[split]}}{{split}}
+	</li>
+</ul>
+</div>
+<div ng-controller="reviewformcontroller">
+	<ul>
+		<li ng-repeat="review in myProduct.reviews">
+			{{review.myreview}}<br>
+			{{review.person}}<br><br>
+		</li><br>
+	</ul><br>
+	{{review1.myreview}}
+	{{review1.person}}
+
+	<form name="myreview" novalidate>
+		<label>Enter you review</label>
+		<input type="text" ng-model="review1.myreview" required><br>
+		<label>Enter your name</label>
+		<input type="email" ng-model="review1.person" required><br>
+		<button class="btn btn-danger" ng-click="myreview.$valid&&addReview()">add my review</button>
+	</form>
+</div>

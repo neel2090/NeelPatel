@@ -1,0 +1,45 @@
+body
+{
+	background-color: lightgray;
+}
+
+#h1product
+{
+	font-size: 60px;
+}
+#infoContainer
+{
+	 
+	border: 2px solid transparent; 
+	height: 600px; 
+	width:600px;
+	margin: 10px 0px 0px 100px; 
+	display: inline-block;
+}
+#productImg
+{
+	height: 200px; 
+	width: 300px;
+}
+.ng-invalid.ng-dirty
+{
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty
+{
+	border-color: #78FA89;
+}
+#buyPageDiv
+{
+	border: 1px solid transparent;
+	width: 1145px;
+	height: 800px;
+	margin: 0px 0px 0px 185px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.imageSlider
+{
+	width: 600px;
+	height: 600px;
+}

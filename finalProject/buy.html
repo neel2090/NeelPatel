@@ -1,0 +1,28 @@
+<div id="buyPageDiv">
+<table>
+	<center><img src="{{productImg}}" class="productImg" ;"></center><br>
+	<tr>
+		<td><h4>price: </h4></td>
+		<td><h4>{{itemPrice}}</h4></td>
+	</tr><br>
+	<tr>
+		<td><h4>Description Of Product: </h4></td>
+		<td><h4>{{info}}</h4></td>
+	</tr><br>
+	<tr>
+		<td><h4>Shipping Details: </h4></td>
+		<td><h4>{{shippingDetail}}</h4></td>
+	</tr><br>
+	<tr>
+		<td><h4>Customer Reviews: </h4></td>
+		<td><ul><li ng-repeat="split in splitItemReview">
+		{{splitItemReview[split]}}{{split}}
+		</li></ul></td>
+	</tr><br>
+	<tr>
+		<td><h4>Amount in Stock: </h4></td>
+		<td><h4>{{inStock}}</h4></td>
+	</tr><br>	
+</table><br>
+<center><button class="btn btn-success" ng-click="confirmOrder(x.productDiscription,x.shippingDetails)">Confirm</button></center>
+</div>

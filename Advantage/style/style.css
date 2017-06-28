@@ -1,0 +1,723 @@
+#wrapper{
+	border:1px solid transparent;
+	width: 100%;
+	height: 100%;
+	background: #FAFAFA;
+	margin: 0px 0px 0px 0px;
+}
+#header{
+	border:1px solid transparent;
+	width: 86%;
+	height: 190px;
+	margin: 10px 10px 10px 103px;
+	background: white;
+}
+#logo{
+	border:1px solid transparent;
+	width: 274px;
+	height: 49px;
+	margin: 0px 10px 0px 0px;
+	background-image: url("../image/adv_logo_hd.gif");
+	background-size: 274px 49px;
+	display: inline-block;
+}
+.select{
+	border:1px solid transparent;
+	width: 160px;
+	height: 20px;
+	margin: 20px 40px 10px 1px;
+	float: right;
+}
+.select.country{
+	width: 180px;
+	margin: 20px 0px 10px 5px;
+}
+.select.language{
+	width: 140px;
+	margin: 20px 0px 10px 2px;
+}
+.select.img{
+	width: 30px;
+	height: 20px;
+	margin: 20px 18px 10px -40px;
+	background-image: url("../image/search_btn.gif");
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+select{
+	-webkit-appearance: none;
+	background-image: url("../image/arrow.png");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+#selectbox1{
+	width: 160px;
+}
+#selectbox2{
+	width: 80px;
+}
+#headingPara{
+	border:1px solid transparent;
+	width: 100px;
+	height: 25px;
+	margin: 0px 10px 10px 138px;
+}
+#paraHead{
+	padding-left: 3px;
+	margin-top: 0px;
+}
+#navBar{
+	border: 1px solid transparent;
+	width: 100%;
+	height: 30px;
+	background: #f2f1f2;
+	float: right;
+}
+.list1{
+	border: 1px solid transparent;
+	width: 248px;
+	height: 30px;
+	margin: -17px 40px 0px -40px;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+.aList{
+	display:block;
+	text-decoration: none; 
+	color:#333333; 
+}
+.l1{
+	background:#f2f1f2;
+}
+.aList:hover{
+	height: 30px;
+	background:#007cc0; 
+	color:#ffffff;
+}
+#active{
+	height: 30px;
+	background:#007cc0;
+	color:#ffffff;
+}
+.pNav{
+	margin-top: 0px;
+	padding-top: 14px;
+}
+#stepNav{
+	border: 1px solid transparent;
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	float: right;
+}
+.list2{
+	border: 1px solid transparent;
+	width: 180px;
+	height: 40px;
+	margin: -17px 40px 0px -42px;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+.list2.step2{
+	width: 500px;
+}
+.li2{
+	height: 40px; 
+}
+#step1{
+	background: #abd7e5;
+	color: blue;
+}
+#stepImg{
+	border: 1px solid transparent;
+	width: 20px;
+	height: 40px;
+	margin: -17px 40px 0px -42px;
+	background-image: url("../image/resStepDivider.gif");
+	background-repeat: no-repeat;
+	background-size: 20px 40px;
+	float: left;
+	position: relative;
+}
+#stepImg2{
+	border: 1px solid transparent;
+	width: 20px;
+	height: 40px;
+	margin: -17px 40px 0px -42px;
+	background-image: url("../image/resStepDividerActive.gif");
+	background-repeat: no-repeat;
+	background-size: 20px 40px;
+	float: left;
+}
+#active2{
+	height: 40px;
+	background:#007cc0;
+	color:#ffffff;
+}
+.pStep{
+	margin-top: 0px;
+	padding-top: 22px;
+}
+#article{
+	border:1px solid transparent;
+	width: 86%;
+	height: 1062px;
+	margin: 40px 10px 10px 103px;
+}
+#sideBar{
+	border: 1px solid transparent;
+	width: 368px;
+	height: 747px;
+	margin: 0px 0px 0px 0px;
+	float: right;
+	background: #abd7e5;
+}
+#sideImg{
+	border: 1px solid transparent;
+	width: 100%;
+	height: 320px;
+	background-image: url(../image/vehicles/offer.gif);
+    background-size: 384px 320px;
+    display: inline-block;
+
+}
+#side{
+	border: 1px solid transparent;
+	width: 260px;
+	height: 150px;
+	display: inline-block;
+	margin: 124px 0px 0px 59px;
+	text-align: center;
+}
+#hSide{
+	font-size: 8em;
+	color: white;
+	margin-top: 0px;
+	padding-top: 0px;
+	opacity: 0.8;
+}
+#itinerary{
+	border: 1px solid transparent;
+	width: 100%;
+	height: 454;
+}
+#sideBar1{
+	border: 1px solid transparent;
+	width: 160px;
+	height:  20px;
+	margin: 12px 0px 0px 22px;
+	float: left;
+}
+#h2Side{
+	margin-top: 0px;
+}
+#sideBar2{
+	border: 1px solid transparent;
+	width: 118px;
+	height: 20px;
+	margin: 8px 16px 0px 0px;
+	float: right;
+}
+#aSide{
+	color: blue;
+	text-decoration: none; 
+}
+#sideBar3{
+	border: 1px solid transparent;
+	width: 80px;
+	height: 20px;
+	margin: 54px 0px 0px 20px;
+}
+#pickUp{
+	margin-top: 0px;
+}
+#sideBar4{
+	border: 1px solid transparent;
+	width: 300px;
+	height: 70px;
+	margin: 0px 0px 0px 20px;
+}
+.pickUpInfo{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#sideBar5{
+	border: 1px solid transparent;
+	width: 80px;
+	height: 20px;
+	margin: 18px 0px 0px 20px;
+}
+#return{
+	margin-top: 0px;
+}
+#sideBar6{
+	border: 1px solid transparent;
+	width: 300px;
+	height: 100px;
+	margin: 0px 0px 0px 20px;
+}
+.returnInfo{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#sideBar7{
+	border: 1px solid transparent;
+	width: 120px;
+	height: 20px;
+	margin: 20px 0px 0px 20px;
+}
+#pickUpDate{
+	margin-top: 0px;
+}
+#sideBar8{
+	border: 1px solid transparent;
+	width: 300px;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+}
+#pickUpDateInfo{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#sideBar9{
+	border: 1px solid transparent;
+	width: 120px;
+	height: 20px;
+	margin: 20px 0px 0px 20px;
+}
+#returnDate{
+	margin-top: 0px;
+}
+#sideBar10{
+	border: 1px solid transparent;
+	width: 300px;
+	height: 25px;
+	margin: 0px 0px 0px 20px;
+}
+#returnDateInfo{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.carSet1{
+	border: 1px solid transparent;
+	width: 922px;
+	height: 150px;
+	background: white;
+}
+.priceBox{
+	border: 1px solid transparent;
+	width: 225px;
+	height: 150px;
+	float: left;
+}
+.price{
+	border: 1px solid transparent;
+	width: 70px;
+	height: 35px;
+	margin: 13px 0px 0px 73px;
+}
+.hPrice{
+	margin: 0px;
+}
+.day{
+	border: 1px solid transparent;
+	width: 75px;
+	height:25px;
+	margin: 0px 0px 0px 73px;
+}
+.pDay{
+	margin-top: 0px;
+}
+.selectBtn{
+	border: 1px solid transparent;
+	width: 100px;
+	height: 33px;
+	margin: 0px 0px 0px 60px;
+	background: #007cc0;
+}
+.selBtn{
+	width: 100px;
+	height: 33px;
+	background: #007cc0;
+	color: white;
+	font-size: 15px;
+	padding-top: 12px;
+}
+.total{
+	border: 1px solid transparent;
+	width: 130px;
+	height: 25px;
+	margin: 7px 0px 0px 51px;
+}
+.pTotal{
+	margin-top: 0px;
+	font-size: 17px;
+}
+.carBox{
+	border: 1px solid transparent;
+	width: 225px;
+	height: 150px;
+	display: inline-block;
+}
+#carImg{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car1.gif);
+    background-size: 168px 108px;
+}
+.imgInfo{
+	border: 1px solid transparent;
+	width: 120px;
+	height: 20px;
+	margin: 5px 0px 0px 50px;
+	position: absolute;
+}
+.pImgInfo{
+	margin-top: 0px;
+	
+}
+.carSize{
+	border: 1px solid transparent;
+	width: 225px;
+	height: 150px;
+	display: inline-block;
+	position: absolute;
+}
+.person{
+	border: 1px solid transparent;
+    width: 7px;
+    height: 17px;
+    margin: 14px 2px 0px 52px;
+    background-image: url(../image/vehicles/person.png);
+    background-size: 100% 100%;
+    float: left;
+}
+.passengers{
+	border: 1px solid transparent;
+	width: 100px;
+	height: 17px;
+	margin: 14px 0px 0px 5px;
+	float: left;
+
+}
+.pPassengers{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.smCase{
+	border: 1px solid transparent;
+    width: 13px;
+    height: 10px;
+    margin: 10px 0px 0px 46px;
+    background-image: url(../image/icon_sm_scase.gif);
+    float: left;
+}
+.smSuitcase{
+	border: 1px solid transparent;
+	width: 130px;
+	height: 17px;
+	margin: 4px 0px 0px 5px;
+	float: left;
+}
+.pSmCase{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.lgCase{
+	border: 1px solid transparent;
+    width: 18px;
+    height: 15px;
+    margin: 6px 0px 0px 41px;
+    background-image: url(../image/icon_lg_scase.gif);
+    float: left;
+}
+.lgSuitcase{
+	border: 1px solid transparent;
+	width: 130px;
+	height: 17px;
+	margin: 4px 0px 0px 5px;
+	float: left;
+}
+.pLgCase{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.carInformation{
+	border: 1px solid transparent;
+    width: 240px;
+    height: 150px;
+    float: right;
+}
+.carInfo{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 17px;
+	margin: 14px 0px -10px 10px;
+}
+.pInfo{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.carSet2{
+	border: 1px solid transparent;
+	width: 922px;
+	height: 150px;
+	background:#f2f1f2;
+}
+#carImg2{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car2.gif);
+    background-size: 168px 108px;
+}
+#carImg3{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car3.gif);
+    background-size: 168px 108px;
+}
+.total.one{
+	border: 1px solid transparent;
+	width: 130px;
+	height: 25px;
+	margin: 7px 0px 0px 48px;
+}
+#carImg4{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car4.gif);
+    background-size: 168px 108px;
+}
+#carImg5{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car5.gif);
+    background-size: 168px 108px;
+}
+#carImg6{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car6.gif);
+    background-size: 168px 108px;
+}
+#carImg7{
+	border: 1px solid transparent;
+    width: 167px;
+    height: 97px;
+    margin: 12px 0px 0px 28px;
+    background-image: url(../image/vehicles/car7.gif);
+    background-size: 168px 108px;
+}
+#footer{
+	border:1px solid transparent;
+	width: 86%;
+	height: 320px;
+	margin: 60px 10px -7px 103px;
+	background: #abd7e5;
+	border-bottom: 12px solid #007cc0;
+}
+#fBox1{
+	border: 1px solid transparent;
+	width: 425px;
+	height: 250px;
+	float: left;
+}
+#connected{
+	border: 1px solid transparent;
+	width: 216px;
+	height: 50px;
+	margin: 20px 0px 0px 36px;
+}
+#hFooter{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+#email{
+	border: 1px solid transparent;
+	width: 250px;
+	height: 20px;
+	margin: -4px 0px 0px 33px;
+	float: left;
+}
+#emailBox{
+	width: 250px;
+	height: 20px
+}
+#submitBtn{
+	border: 1px solid transparent;
+	width: 90px;
+	height: 25px;
+	margin: -4px 35px 0px 0px;
+	background: #007cc0;
+	float: right;
+}
+#subBtn{
+	width: 90px;
+	height: 25px;
+	background: #007cc0;
+	color: white;
+	font-size: 15px;
+	padding-top: 7px;
+}
+#fImg1{
+	border: 1px solid transparent;
+	width: 30px;
+	height: 30px;
+	margin: 15px 0px 0px 33px;
+	background-image: url("../image/share.png");
+	background-size: 30px 30px;
+	float: left;
+}
+#fImg2{
+	border: 1px solid transparent;
+	width: 30px;
+	height: 30px;
+	margin: 15px 0px 0px 40px;
+	background-image: url("../image/facebook.png");
+	float: left;
+}
+#fImg3{
+	border: 1px solid transparent;
+	width: 30px;
+	height: 30px;
+	margin: 15px 0px 0px 40px;
+	background-image: url("../image/twitter.png");
+	float: left;
+}
+#fImg4{
+	border: 1px solid transparent;
+	width: 30px;
+	height: 30px;
+	margin: 15px 0px 0px 40px;
+	background-image: url("../image/youtube.png");
+	float: left;
+}
+#phoneImg{
+	border: 1px solid transparent;
+	width: 16px;
+	height: 30px;
+	margin: 83px 0px 0px 33px;
+	background-image: url("../image/phoneicon.png");
+	float: left;
+	position: absolute;
+}
+#mobile{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 25px;
+	margin: 25px 0px 0px 71px;
+	display: inline-block;
+}
+#pMobile{
+	margin-top: 0px;
+	color: blue;
+}
+#fBox2{
+	border: 1px solid transparent;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+#rates{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 105px;
+	margin: 20px 0px 0px 10px;
+}
+.aRates{
+	color: blue;
+	text-decoration: none; 
+}
+.pRates.rate{
+	font-size: 18px
+}
+.pRates{
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+#pass{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 40px;
+	margin: 10px 0px 0px 10px;
+}
+#find{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 40px;
+	margin: 5px 0px 0px 10px;
+}
+#fBox3{
+	border: 1px solid transparent;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+#deals{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 40px;
+	margin: 20px 0px 0px 10px;
+}
+#contact{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 40px;
+	margin: 10px 0px 0px 10px;
+}
+#customer{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 110px;
+	margin: 10px 0px 0px 10px;
+}
+.pRates.deals{
+	margin-top: 0px;
+}
+#fBox4{
+	border: 1px solid transparent;
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+#careers{
+	border: 1px solid transparent;
+	width: 200px;
+	height: 150px;
+	margin: 20px 0px 0px 10px;
+}
+.pRates.deals{
+	margin-bottom: 0px;
+}
+#reg{
+	border: 1px solid transparent;
+	width: 1000px;
+	height: 25px;
+	margin: 17px 0px 0px 120px;
+	float: left;
+}
+#pReg{
+	margin-top: 0px;
+}
+.fLine{
+	border: 1px solid white;
+	width: 0px;
+	height: 230px;
+	margin: 20px 0px 0px 17px;
+	float: left;
+}

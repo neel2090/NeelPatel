@@ -1,0 +1,20 @@
+<center><h1 id="h1product">Guitars</h1></center>
+<div ng-repeat="x in product.allProducts" style="display: inline-block;">
+	<div id="infoContainer">
+	<table>
+	<center><img src="{{x.imagePath}}" class="img-rounded" alt="product img" id="productImg" ;"></center><br>
+		<tr>
+			<td><h4>Description Of Product: </h4></td>
+			<td><h4>{{x.productDiscription}}</h4></td>
+		</tr><br>
+		<tr>
+			<td><h4>price: </h4></td>
+			<td><h4>{{x.price}}</h4></td>
+		</tr><br>
+	</table><br>
+	<center>
+		<button class="btn btn-primary btn-lg" ng-click="reviewPage(x.custmerReviews)">reviews</button>      
+		<button class="btn btn-success btn-lg" ng-click="buyPage(x.imagePath,x.price,x.productDiscription,x.shippingDetails,x.custmerReviews,x.noOfItems)">buy</button>
+	</center>
+	</div>
+</div>

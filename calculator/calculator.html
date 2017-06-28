@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculator</title>
+		<link rel="stylesheet" type="text/css" href="style/mainStyle.css">
+		<script type="text/javascript" src="script/calculate.js"></script>
+	</head>
+	<body >
+		<table border="1px solid" cellpadding="0px" cellspacing="0px" align="center">
+			<tr>
+				<td colspan="4"><input type="text" id="mainInput" value="0"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="btnClear" onclick="clearAll()">C</button></td>
+				<td><button id="btnMod" onclick="mod()">%</button></td>
+				<td><button id="btnDiv" onclick="div()">/</button></td>
+			</tr>
+			<tr>
+				<td><button id="btnSeven" onclick="seven()">7</button></td>
+				<td><button id="btnEight" onclick="eight()">8</button></td>
+				<td><button id="btnNine" onclick="nine()">9</button></td>
+				<td><button id="btnMul" onclick="mul()">X</button></td>
+			</tr>
+			<tr>
+				<td><button id="btnFour" onclick="four()" value="4">4</button></td>
+				<td><button id="btnFive" onclick="five()" value="5">5</button></td>
+				<td><button id="btnSix" onclick="six()">6</button></td>
+				<td><button id="btnSub" onclick="sub()">-</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="three()">3</button></td>
+				<td><button onclick="two()">2</button></td>
+				<td><button onclick="one()">1</button></td>
+				<td><button onclick="add()">+</button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="btnZero" onclick="zero()">0</button></td>
+				<td><button id="btnDec" onclick="dec()">.</button></td>
+				<td><button id="btnEqual" onclick="equal()">=</button></td>
+			</tr>
+			
+		</table>
+
+	</body>
+</html>
